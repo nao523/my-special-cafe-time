@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Special Cafe Time</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="header-container">
+        <a href="#top" class="logo-link">
+          <picture>
+            <source 
+              srcset="images/headerLogo.png"
+              width="166"
+              height="17"
+              media="(max-width: 767px)"
+            />
+            <img 
+              src="images/headerLogo.png" 
+              alt="My Special Cafe Time"
+              width="285"
+              height="30"
+            >
+          </picture>
+        </a>
+        <nav class="header-menu" aria-label="ヘッダーメニュー">
+          <a href="#about" class="header-text">ABOUT</a>
+          <a href="#gallery" class="header-text">GALLERY</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1 aria-label="My Special Cafe Time">
+        <picture>
+          <source 
+            srcset="images/MV_SP.png"
+            width="390"
+            height="310"
+            media="(max-width: 767px)"
+          />
+          <img 
+            src="images/MV_PC.png"
+            alt="My Special Cafe Time"
+            width="100%"
+            height="427"
+          >
+        </picture>
+      </h1>
+      <section class="about" id="about">
+        <h2 class="heading">ABOUT</h2>
+        <div class="about-container">
+          <figure class="about-image">
+            <img src="images/InteriorView.png" alt="Cafe InteriorView">
+          </figure>
+          <div class="about-text">
+            <p>あなただけの特別な時間を</p>
+              <p>
+                <small>
+                  目黒川沿いに静かに佇む小さなカフェスペース。<br>
+                  <br>
+                  春には満開の桜を窓際で楽しみながら、大切な時間をゆっくりと楽しむことができます。読書を楽しんだり、ご友人との時間を楽しんだり、あなただけの特別な時間をお過ごしください。
+                </small>
+              </p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2 class="heading">GALLERY</h2>
+        <div class="gallery-container">
+          <ul>
+            <li><img src="images/gallery1.png" alt="サンドイッチプレート"></li>
+            <li><img src="images/gallery2.png" alt="ハートのラテアート"></li>
+            <li><img src="images/gallery3.png" alt="作成中のラテアート"></li>
+            <li><img src="images/gallery4.png" alt="コーヒー豆"></li>
+            <li><img src="images/gallery5.png" alt="窓際のカウンター席"></li>
+            <li><img src="images/gallery6.png" alt="店内の内観"></li>
+            <li><img src="images/gallery7.png" alt="カフェオレ"></li>
+            <li><img src="images/gallery8.png" alt="植物のラテアート"></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">&copy; 2023 My Special Cafe Time</p>
+    </footer>
+  </body>
+</html>
